@@ -1,0 +1,13 @@
+/* Remove default list styling and make it inline */
+#id_gender,
+#id_job_city {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Apply padding and ensure list items are inline */
+#id_gender > li,
+#id_job_city > li {
+    display: inline-flex; /* Use inline-block for list items */
+    margin-left: 10px; /* Adjust margin for spacing */
+}
